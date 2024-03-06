@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  border: 0;
+  background-color: #878787;
+  font-family: 'Cairo Variable', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  /* background-color: rgb(142, 142, 142); */
+
+}
+
+button {
+  font-family: 'Cairo Variable', sans-serif;
+  font-size: 12px;
+
+}
