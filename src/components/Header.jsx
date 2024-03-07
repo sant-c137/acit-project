@@ -15,8 +15,13 @@ export const Header = () => {
             <option value="AR">(AR)</option>
           </select>
         </div>
-        <button className="login-button">تسجيل الدخول</button>
-        <button className="singin-button">إنشاء حساب</button>
+        <Link to="/sign-in">
+          <button className="login-button">تسجيل الدخول</button>
+        </Link>
+
+        <Link to="/create-account">
+          <button className="create-account-button">إنشاء حساب</button>
+        </Link>
       </div>
 
       <nav className="header-sections">

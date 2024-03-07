@@ -6,16 +6,16 @@ import { AcitBlogArticles } from "../components/AcitBlogArticles";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 
+import "./Login.css";
+
 export const Home = () => {
   return (
     <>
-      {/* <Header /> */}
-      {/* <AcitMainContent />
+      <AcitMainContent />
       <AcitCourseListing />
       <AcitOpinionsStudents />
-      <AcitBlogArticles/>
-      <AcitMissionVision /> */}
-      
+      <AcitBlogArticles />
+      <AcitMissionVision />
       <Footer />
     </>
   );

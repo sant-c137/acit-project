@@ -42,9 +42,16 @@
   font-family: inherit;
   font-weight: inherit;
   line-height: 20.61px;
+  cursor: pointer;
 }
 
-.singin-button {
+.login-button:hover {
+  background-color: #0c87b5;
+  opacity: 0.9; 
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+.create-account-button {
   border-radius: 12px;
   border: 1px solid #13a3d9;
   background: transparent;
@@ -56,6 +63,13 @@
   font-weight: inherit;
   line-height: 20.61px;
 }
+
+.create-account-button:hover {
+  background-color: #0c87b5;
+  opacity: 0.9; 
+  color: rgba(255, 255, 255, 0.8); 
+}
+
 
 .language-selector {
   background: transparent;
@@ -74,6 +88,7 @@ header {
   color: white;
   height: 68px;
   padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .check-button {
