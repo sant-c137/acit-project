@@ -42,9 +42,14 @@
   color: #1a457b;
 }
 
-.login-container input {
+form {
   width: 100%;
-  height: 10%;
+  height: auto;
+}
+
+.login-container form input {
+  width: 100%;
+  height: 52px;
 
   box-sizing: border-box;
 
@@ -53,7 +58,7 @@
   border-radius: 12px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 
-  font-family: "Cairo Variable", sans-serif;
+  font-family: 'Cairo Variable', sans-serif;
 
   font-weight: 400;
   font-size: 12px;
@@ -151,7 +156,7 @@
   color: rgba(0, 0, 0, 0.25);
 }
 
-.create-account-btn {
+.create-account-sign-in {
   width: 100%;
   height: 52px;
   left: 510px;
@@ -198,10 +203,9 @@
   height: 100%;
 }
 
-@media (width <= 500px){
+@media (width <= 500px) {
   .login-container {
-  margin: 35px 0px;
-
+    margin: 35px 0px;
   }
   .decoration-lines {
     display: none;
@@ -214,5 +218,3 @@
     z-index: -1;
   }
 }
-
-

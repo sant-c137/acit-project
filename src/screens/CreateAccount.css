@@ -46,10 +46,12 @@
 .formulary-left {
   display: flex;
   flex-direction: column;
-  width: 45%;
+  /* width: 45%; */
   min-width: 250px;
   /* max-width: 370px;
   width: 100%; */
+
+  flex-grow: 1;
 
   font-style: normal;
   font-weight: 800;
@@ -64,10 +66,11 @@
 .formulary-right {
   display: flex;
   flex-direction: column;
-  width: 45%;
   min-width: 250px;
+  /* width: 45%; */
   /* max-width: 370px;
   width: 100%; */
+  flex-grow: 1;
 
   font-style: normal;
   font-weight: 800;
@@ -144,4 +147,3 @@
   letter-spacing: 0.02em;
   color: #1a457b;
 }
-
