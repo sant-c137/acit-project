@@ -17,7 +17,7 @@ export const Login = () => {
     useEffect(()=>{log()},[])*/
     try {
       const response = await axios.post(
-        'http://26.95.135.143:8000/api/logian',
+        'http://26.95.135.143:8000/api/login',
         {
           email: email,
           password: password,

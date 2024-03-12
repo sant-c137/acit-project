@@ -24,12 +24,12 @@
 .header-sections ul li a {
   color: white;
   text-decoration: none;
-  /* position: relative; */
 }
 
 .login-singin {
   display: inherit;
   gap: 12px;
+  align-items: center;
 }
 
 .login-button {
@@ -61,7 +61,7 @@
   color: white;
   font-family: inherit;
   font-weight: inherit;
-  line-height: 20.61px;
+  line-height: 1rem;
 }
 
 .create-account-button:hover {
